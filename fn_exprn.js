@@ -11,3 +11,5 @@ var sayBye = function(username){
 }
 //sayBye('Sparrow');
 callFunction(sayBye,"Kitty");
+
+module.exports = callFunction;      //allows to use the 'callFunction' in other modules
