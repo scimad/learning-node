@@ -3,7 +3,7 @@ const http = require('http');
 function onRequest(request, response){
     console.log(request.url);
     response.writeHead(200, {"content-Type":"text/html"});
-    response.end(`<h1>Hello</hello><br>So you wanna visit "${request.url}" huh??`);
+    response.end(`<h1>Hello</h1><br>So you wanna visit "${request.url}" huh??`);
 }
 
 var server = http.createServer(onRequest);
