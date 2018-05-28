@@ -31,4 +31,4 @@ function onRequest(request, response){
 var server = http.createServer(onRequest);
 
 server.listen(3000); //server.listen(3000,'127.0.0.1'); 
-console.log('server started @ port 3000 using pipe');
+console.log('server started @ port 3000');
