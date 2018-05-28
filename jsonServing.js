@@ -23,7 +23,7 @@ function onRequest(request, response){
             no2: 34
         }
         
-    }
+    };
 
     response.end(JSON.stringify(myData));
 }
